@@ -1,0 +1,39 @@
+{
+  "name": "inmyfridge",
+  "version": "1.0.0",
+  "description": "What's in my fridge?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfmengels/inmyfridge.git"
+  },
+  "keywords": [],
+  "author": "Jeroen Engels <jfm.engels@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jfmengels/inmyfridge/issues"
+  },
+  "homepage": "https://github.com/jfmengels/inmyfridge#readme",
+  "dependencies": {
+    "@cycle/core": "^5.0.1",
+    "@cycle/dom": "^7.1.1",
+    "babel-core": "^6.1.4",
+    "babel-loader": "^6.1.0",
+    "babel-preset-es2015": "^6.1.4",
+    "babel-preset-stage-0": "^6.1.2",
+    "express": "^4.13.3",
+    "rx": "^4.0.6",
+    "webpack": "^1.12.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^4.1.5",
+    "eslint": "^1.9.0",
+    "webpack-dev-middleware": "^1.2.0",
+    "webpack-hot-middleware": "^2.5.0"
+  }
+}
